@@ -30,36 +30,36 @@ const Sidebar = () => {
       id: 1,
       class: "sidebar__link",
       icon__path: sheduler,
-      to: "/sheduler",
+      to: "/tournament-landing/sheduler",
       text: "РАСПИСАНИЕ",
     },
     {
       id: 2,
       class: "sidebar__link",
       icon__path: teams,
-      to: "/teams",
+      to: "/tournament-landing/teams",
       text: "КОМАНДЫ",
     },
     {
       id: 3,
       class: "sidebar__link",
       icon__path: live_stream,
-      to: "/live",
+      to: "/tournament-landing/live",
       text: "ПРЯМАЯ ТРАНСЛЯЦИЯ",
     },
     {
       id: 4,
       class: "sidebar__link",
       icon__path: seasons,
-      to: "/sessons",
+      to: "/tournament-landing/sessons",
       text: "СЕЗОНЫ",
     },
   ];
 
   let secondaryNavLinks = [
-    { id: 1, class: "sidebar__link", to: "/about_us", text: "О нас" },
-    { id: 2, class: "sidebar__link", to: "/news", text: "Новости" },
-    { id: 3, class: "sidebar__link", to: "/rules", text: "Регламент" },
+    { id: 1, class: "sidebar__link", to: "/tournament-landing/about_us", text: "О нас" },
+    { id: 2, class: "sidebar__link", to: "/tournament-landing/news", text: "Новости" },
+    { id: 3, class: "sidebar__link", to: "/tournament-landing/rules", text: "Регламент" },
   ];
 
   return (

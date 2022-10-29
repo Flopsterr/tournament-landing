@@ -136,7 +136,7 @@ const MainScreen = () => {
               nameRight={"Burning team"}
             />
           </div>
-          <Link className="game_schedule__container__button" to="/sheduler">
+          <Link className="game_schedule__container__button" to="/tournament-landing/sheduler">
             Все матчи
           </Link>
         </div>
