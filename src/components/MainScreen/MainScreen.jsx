@@ -21,7 +21,7 @@ const MainScreen = () => {
             </h1>
             <h2>
               Платформа для проведения киберспортивных сезонных онлайн турниров.
-              Среди учащихся колледжей и школ.
+              Среди учащихся колледжей и школ1.
             </h2>
             <div className="offer__actions">
               <button className="button button_primary">Принять участие</button>
