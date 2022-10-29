@@ -73,9 +73,6 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 	flex-direction: column;
 }
 
-	// svg:not(:root) {
-	// 	display: none;
-	// }
 /* === / WRAPPER === */
 
 /* === MAIN-GRID === */
@@ -91,6 +88,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 .main{
 	flex: 1 1 auto;
 	overflow: hidden;
+	min-height: 100vh;
 }
 .section__title{
 	font-weight: 900;
