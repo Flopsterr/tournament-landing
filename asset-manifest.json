@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tournament-landing/static/css/main.f7639f15.css",
-    "main.js": "/tournament-landing/static/js/main.10013ba1.js",
+    "main.js": "/tournament-landing/static/js/main.08550cc2.js",
     "static/media/hero-bg.jpg": "/tournament-landing/static/media/hero-bg.19120fff02c21ebdc90f.jpg",
     "static/media/KI.png": "/tournament-landing/static/media/KI.bfe377a3a84c760a5bf5.png",
     "static/media/PPNeueMachina-UltraboldItalic.woff2": "/tournament-landing/static/media/PPNeueMachina-UltraboldItalic.4d21a2f275641b9ba4cb.woff2",
@@ -25,10 +25,10 @@
     "static/media/sheduler.svg": "/tournament-landing/static/media/sheduler.96ebfa9d54dc682a1d2d685a727f5a2b.svg",
     "static/media/decoration-circles.svg": "/tournament-landing/static/media/decoration-circles.de993d41497f2ea1846e9c5e22157023.svg",
     "main.f7639f15.css.map": "/tournament-landing/static/css/main.f7639f15.css.map",
-    "main.10013ba1.js.map": "/tournament-landing/static/js/main.10013ba1.js.map"
+    "main.08550cc2.js.map": "/tournament-landing/static/js/main.08550cc2.js.map"
   },
   "entrypoints": [
     "static/css/main.f7639f15.css",
-    "static/js/main.10013ba1.js"
+    "static/js/main.08550cc2.js"
   ]
 }
