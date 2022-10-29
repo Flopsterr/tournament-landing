@@ -85,7 +85,7 @@ const Sidebar = () => {
           <SecondaryNav links={secondaryNavLinks} />
           <Social />
         </nav>
-        <NavLink className="logo sidebar__link" to="/" end>
+        <NavLink className="logo sidebar__link" to="/tournament-landing" end>
           <img src={logo} alt="burn" />
           <span className="hidden">Burning League</span>
         </NavLink>
