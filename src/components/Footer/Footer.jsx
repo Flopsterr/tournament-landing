@@ -4,7 +4,6 @@ import Logo from '../../static/logo.svg';
 
 import './Footer.scss'
 
-
 const Footer = () => {
 	return (
 		<footer className="footer">
