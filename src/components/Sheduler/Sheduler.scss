@@ -1,0 +1,12 @@
+.teams{
+	.teams__inner{
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		row-gap: 40px;
+		column-gap: 70px;
+	}
+	.team{
+		flex: 0 1 calc(20% - 70px);
+	}
+}

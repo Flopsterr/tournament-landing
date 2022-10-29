@@ -1,0 +1,19 @@
+.team{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	flex-direction: column;
+
+	&__img{
+		margin-bottom: 24px;
+
+		img{
+			max-width: 100px;
+		}
+	}
+
+	&__name{
+		font-weight: 700;
+		font-size: 24px;
+	}
+}
