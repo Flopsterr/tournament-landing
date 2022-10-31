@@ -1,0 +1,19 @@
+.team-item {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  justify-content: center;
+  align-items: center;
+
+  .team-text {
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+  }
+  .team-logo {
+    width: 100px;
+  }
+}

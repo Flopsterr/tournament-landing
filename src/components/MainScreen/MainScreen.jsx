@@ -2,17 +2,19 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 import React from "react";
 import Faq from "../Faq/Faq";
-import GameSchedule from "../GameSchedule/GameSchedule";
+import TeamsСhart from "../TeamsChart/TeamsСhart";
 import "./MainScreen.scss";
 import hero_text from "../../static/hero_text.svg";
-import Ki from "../../static/img/KI.png";
 import { HandySvg } from "handy-svg";
-import { Link } from "react-router-dom";
+import logo from "../../static/logo.svg";
+// import GameSchedule from "../GameSchedule/GameSchedule";
+// import Ki from "../../static/img/KI.png";
+// import { Link } from "react-router-dom";
 
 const MainScreen = () => {
   return (
     <div className="root">
-      <section className="main-screen outer">
+      <section className="main-screen outer" id="first">
         <div className="container">
           <div className="main-screen__offer offer">
             <h1>
@@ -23,14 +25,14 @@ const MainScreen = () => {
               Платформа для проведения киберспортивных сезонных онлайн турниров.
               Среди учащихся колледжей и школ.
             </h2>
-            <div className="offer__actions">
+            {/* <div className="offer__actions">
               <button className="button button_primary">Принять участие</button>
               <button className="button button_border">Сезоны</button>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
-      <section>
+      {/* <section>
         <div className="my__container  about-us__parent__container">
           <div className="about-us__container">
             <h1 className="heading__title">О нас</h1>
@@ -53,12 +55,12 @@ const MainScreen = () => {
                 и что они так же, как и остальные мероприятия проводимые на базе
                 колледжа, могут сплачивать и собирать вместе студентов с общими
                 интересами.
-              </p>
+              </p>  
             </div>
           </div>
         </div>
-      </section>
-      <section>
+      </section> */}
+      <section id="live">
         <div className="my__container">
           <div className="live__container">
             <h1 className="heading__title">
@@ -70,7 +72,21 @@ const MainScreen = () => {
           </div>
         </div>
       </section>
-      <section>
+      <section id="teams">
+        <div className="my__container">
+          <div className="teams__container">
+            <h1 className="heading__title">Команды</h1>
+            <div className="teams__list">
+              <TeamsСhart imgTeam={logo} text="Burning team"/>
+              <TeamsСhart imgTeam={logo} text="Burning team"/>
+              <TeamsСhart imgTeam={logo} text="Burning team"/>
+              <TeamsСhart imgTeam={logo} text="Burning team"/>
+              <TeamsСhart imgTeam={logo} text="Burning team"/>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="faq">
         <div className="my__container faq__main__container">
           <h1 className="heading__title heading__title__faq">F.A.Q.</h1>
           <div className="faq__container">
@@ -93,7 +109,7 @@ const MainScreen = () => {
           </div>
         </div>
       </section>
-      <section>
+      {/* <section>
         <div className="my__container game_schedule__container">
           <h1 className="heading__title heading__title__game-schedule">
             Расписание матчей
@@ -136,11 +152,11 @@ const MainScreen = () => {
               nameRight={"Burning team"}
             />
           </div>
-          <Link className="game_schedule__container__button" to="/tournament-landing/sheduler">
+          <Link className="game_schedule__container__button" to="/sheduler">
             Все матчи
           </Link>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };

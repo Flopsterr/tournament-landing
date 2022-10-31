@@ -72,13 +72,12 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 	display: flex;
 	flex-direction: column;
 }
-
 /* === / WRAPPER === */
 
 /* === MAIN-GRID === */
-.outer{
-	padding: 0 20px;
-}
+// .outer{
+// 	padding: 0 20px;
+// }
 .container{max-width: $limited;margin: 0 auto;width: 100%;
 	@media (max-width: $lg){max-width: none;}
 }
@@ -88,7 +87,6 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 .main{
 	flex: 1 1 auto;
 	overflow: hidden;
-	min-height: 100vh;
 }
 .section__title{
 	font-weight: 900;

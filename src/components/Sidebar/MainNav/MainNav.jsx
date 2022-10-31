@@ -24,8 +24,8 @@ const MainNav = (props) => {
 			{links}
 			<div className="main-nav__seasons">
 				<div className="main-nav__seasons-season">C</div>
-				<NavLink className='sidebar__link hidden' to='/tournament-landing/seasonI' end>СЕЗОН I</NavLink>
-				<NavLink className='sidebar__link hidden' to='/tournament-landing/seasonII' end>СЕЗОН II</NavLink>
+				<NavLink className='sidebar__link hidden' to='/seasonI' end>СЕЗОН I</NavLink>
+				<NavLink className='sidebar__link hidden' to='/seasonII' end>СЕЗОН II</NavLink>
 			</div>
 		</div>
 	)

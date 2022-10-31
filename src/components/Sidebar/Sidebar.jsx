@@ -30,36 +30,36 @@ const Sidebar = () => {
       id: 1,
       class: "sidebar__link",
       icon__path: sheduler,
-      to: "/tournament-landing/sheduler",
+      to: "/sheduler",
       text: "РАСПИСАНИЕ",
     },
     {
       id: 2,
       class: "sidebar__link",
       icon__path: teams,
-      to: "/tournament-landing/teams",
+      to: "/teams",
       text: "КОМАНДЫ",
     },
     {
       id: 3,
       class: "sidebar__link",
       icon__path: live_stream,
-      to: "/tournament-landing/live",
+      to: "/live",
       text: "ПРЯМАЯ ТРАНСЛЯЦИЯ",
     },
     {
       id: 4,
       class: "sidebar__link",
       icon__path: seasons,
-      to: "/tournament-landing/sessons",
+      to: "/sessons",
       text: "СЕЗОНЫ",
     },
   ];
 
   let secondaryNavLinks = [
-    { id: 1, class: "sidebar__link", to: "/tournament-landing/about_us", text: "О нас" },
-    { id: 2, class: "sidebar__link", to: "/tournament-landing/news", text: "Новости" },
-    { id: 3, class: "sidebar__link", to: "/tournament-landing/rules", text: "Регламент" },
+    { id: 1, class: "sidebar__link", to: "/about_us", text: "О нас" },
+    { id: 2, class: "sidebar__link", to: "/news", text: "Новости" },
+    { id: 3, class: "sidebar__link", to: "/rules", text: "Регламент" },
   ];
 
   return (
@@ -85,7 +85,7 @@ const Sidebar = () => {
           <SecondaryNav links={secondaryNavLinks} />
           <Social />
         </nav>
-        <NavLink className="logo sidebar__link" to="/tournament-landing" end>
+        <NavLink className="logo sidebar__link" to="/" end>
           <img src={logo} alt="burn" />
           <span className="hidden">Burning League</span>
         </NavLink>
