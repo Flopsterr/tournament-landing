@@ -19,10 +19,10 @@ const App = () => {
 				<main className='main'>
 					<Header/>
 					<Routes>
-						<Route path='/' element={<MainScreen />} />
-						<Route path='/teams' element={<Teams />} />
-						<Route path='/live' element={<Live />} />
-						<Route path='/sheduler' element={<Sheduler />} />
+						<Route path='/tournament-landing' element={<MainScreen />} />
+						<Route path='/tournament-landing/teams' element={<Teams />} />
+						<Route path='/tournament-landing/live' element={<Live />} />
+						<Route path='/tournament-landing/sheduler' element={<Sheduler />} />
 					</Routes>
 				</main>
 			</BrowserRouter>
